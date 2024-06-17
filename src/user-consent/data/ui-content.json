@@ -1,0 +1,128 @@
+[{
+    "name": "cb-ui-static-page-content",
+    "business": "cb-ui",
+    "data": {
+        "pageContent": [{
+            "header": {
+                "data": {
+                    "globalTitle": "Connected Benefits",
+                    "pageTitle": "Connected Benefits",
+                    "pageSubtitle": "Optimize your benefits for when you need them the most",
+                    "faqDescription1": "Refer to our ",
+                    "faqLinkText": "FAQ",
+                    "faqDescription2": " to learn more."
+                }
+            },
+            "footer": {
+                "data": {
+                    "privacyLinkText": "Privacy Policy",
+                    "privacyLinkUrl": "https://www.connectedbenefits.com/privacypolicy",
+                    "termsLinkText": "Terms of Use",
+                    "termsLinkUrl": "https://www.connectedbenefits.com/termsofuse",
+                    "legalText": "© 2017 MetLife MetLife Term Life Insurance issued by MetLife Insurance Company USA, Charlotte, NC, 28277 (except in NY), on policy form #5E2312, and by Metropolitan Life Insurance Company, New York, NY 10166 (NY only), on policy form #1E2312NY. Both are MetLife companies. L1016481177[exp1217] [All States][DC,GU,MP,PR,VI]"
+                }
+            },
+            "landingPage": {
+                "data": {
+                    "title": "CONNECTED BENEFITS",
+                    "subtitle": "Optimize your benefits for when you need them the most",
+                    "description": "Get notified when you may be eligible for automatic benefit payouts and enhancements from certain plans offered by your employer.",
+                    "faqDescription1": "Refer to our ",
+                    "faqLinkText": "FAQ",
+                    "faqDescription2": " to learn more.",
+                    "stepContent": {
+                        "stepProgressNoDepText": "Step 1 of 3",
+                        "stepProgressDepText": "Step 1 of 4",
+                        "stepTitle": "Get Started",
+                        "stepDescription": "Complete the form below so we can verify your identity before proceeding.",
+                        "stepFieldsRequired": "All fields are required",
+                        "stepNameInputLabelText": "Name",
+                        "stepPhoneTypeLabelText": "Phone Type",
+                        "stepPhoneNumberLabelText": "Phone Number",
+                        "stepPhoneNumberToolTipText": "Don't use a VoIP number.",
+                        "stepPersonalEmailLabelText": "Personal Email",
+                        "stepNextButtonText": "Next"
+                    }
+                }
+            },
+            "verifyIdentityCodeRequestPage": {
+                "data": {
+                    "stepProgressNoDepText": "Step 2 of 3",
+                    "stepProgressDepText": "Step 2 of 4",
+                    "title": "Verify Your Identity",
+                    "subtitle": "MetLife will send you a verification code. How would you like to receive this code?",
+                    "textMessageRadioOption": "Text Message",
+                    "textMessageDisclaimerSup": "1",
+                    "textMessageDisclaimer": "Standard text messaging rates may apply.",
+                    "backButtonText": "Back",
+                    "nextButtonText": "Next"
+                }
+            },
+            "verifyIdentityCodeConfirmationPage": {
+                "data": {
+                    "stepProgressNoDepText": "Step 2 of 3",
+                    "stepProgressDepText": "Step 2 of 4",
+                    "title": "Verify Your Identity",
+                    "description1": "A text message with a verification code has been sent to:",
+                    "description2": "Your code will expire in 15 minutes.",
+                    "verificationCodeInputLabelText": "Verification Code",
+                    "resendCodeTitle": "Didn’t receive the code?",
+                    "resendCodeStep1": "Please verify that your email/phone information is correct.",
+                    "resendCodeStep2": "Make sure to check your email spam folder.",
+                    "resendLinkText": "Click here to resend the code",
+                    "backButtonText": "Back",
+                    "nextButtonText": "Next"
+                }
+            },
+            "provideConsentPage": {
+                "data": {
+                    "stepProgressNoDepText": "Step 3 of 3",
+                    "stepProgressDepText": "Step 3 of 4",
+                    "title": "Provide Your Consent",
+                    "denyConsentButtonText": "Deny Consent",
+                    "consentButtonText": "Consent"
+                }
+            },
+            "adultDependentInfoInputPage": {
+                "data": {
+                    "stepProgressDepText": "Step 4 of 4 (OPTIONAL)",
+                    "title": "Include Your Adult Dependents",
+                    "subtitle": "Your adult dependents (18 years and over) must consent individually. If you would like us to send them a consent link, please provide their email address.",
+                    "dependentEmailInputLabelText": "Email",
+                    "skipButtonText": "Skip this step",
+                    "submitButtonText": "Submit"
+                }
+            },
+            "successPageNoRegistration": {
+                "data": {
+                    "title": "Your benefits are connected!",
+                    "subtitle": "You will be automatically notified when you are eligible to receive a payout from your MetLife insurance.",
+                    "description": "You can manage your benefits simply and easily on ",
+                    "descriptionLink": "MyBenefits.com.",
+                    "description2": "If you don’t have an account, you can create one now. You don’t have to create an account in order to be notified of your connected benefits and enhancements."
+                }
+            },
+            "successPageRegistration": {
+                "data": {
+                    "title": "Your benefits are connected!",
+                    "subtitle": "You will be automatically notified when you are eligible to receive a payout from your MetLife insurance.",
+                    "description": "You can manage your benefits simply and easily on ",
+                    "descriptionLink": "MyBenefits.com.",
+                    "description2": "If you don’t have an account, you can create one now. You don’t have to create an account in order to be notified of your connected benefits and enhancements.",
+                    "stepContent": {
+                        "stepTitle": "Create MyBenefits Account",
+                        "stepUsernameInputLabelText": "Username",
+                        "stepPasswordInputLabelText": "Password",
+                        "stepConfirmPasswordInputLabelText": "Confirm Password",
+                        "termsOfUseCheckboxText": "I have read and agree to the ",
+                        "termsOfUseCheckboxLinkText": "Terms of Use",
+                        "eConsentPolicyCheckboxText": "I agree to the ",
+                        "eConsentPolicyCheckboxLinkText": "eConsent Policy",
+                        "legalDisclaimer": "By agreeing to our eConsent policy you consent to receive Policies/Contracts and Disclosures electronically, where applicable by law. Not all communications are available via email or SMS for all products so you may still receive mail. Communications required by law will be mailed to you or sent electronically, whichever is available.",
+                        "createAccountButtonText": "Create Account"
+                    }
+                }
+            }
+        }]
+    }
+}]

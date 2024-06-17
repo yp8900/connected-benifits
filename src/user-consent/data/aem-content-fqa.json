@@ -1,0 +1,47 @@
+[{
+    "name": "cb-ui-aem-faq-content",
+    "business": "cb-aem-faq",
+    "data": {
+        "faq": [{
+                "faq_question": "GENERAL QUESTIONS",
+                "questions": [{
+                        "question": "What is MetLife Connected Benefits?",
+                        "answers": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                    },
+                    {
+                        "question": "Which MetLife benefits are you able to connect?",
+                        "answers": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                    },
+                    {
+                        "question": "How does MetLife Connected benefits work?",
+                        "answers": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                    },
+                    {
+                        "question": "Question",
+                        "answers": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                    }
+                ]
+            },
+            {
+                "faq_question": "PERMISSION OF MEDICAL AND PHARMACY CLAIMS DATA USAGE",
+                "questions": [{
+                        "question": "WWhat is MetLife Connected Benefits?",
+                        "answers": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                    },
+                    {
+                        "question": "Which MetLife benefits are you able to connect?",
+                        "answers": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                    },
+                    {
+                        "question": "How does MetLife Connected benefits work?",
+                        "answers": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                    },
+                    {
+                        "question": "Question",
+                        "answers": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                    }
+                ]
+            }
+        ]
+    }
+}]

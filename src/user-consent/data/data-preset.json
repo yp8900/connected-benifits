@@ -1,0 +1,70 @@
+[{
+  "userIdentifier":"123456789",
+  "employeeIdentifier":"123456789",
+  "userDetails": {
+    "firstName": "John",
+    "lastName": "Smith",
+    "phone":"823-908-2341",
+    "email":"jsmith@email.com",
+    "zip":"27713"
+  },
+  "adultDependents": [
+    {
+      "firstName": "Mary",
+      "lastName": "Smith"
+    },
+    {
+      "firstName": "Jack",
+      "lastName": "Smith"
+    }
+  ],
+  "consents": [
+    {
+      "hashedId":"74db7116b6cd2adad3d4b4f7a6e5a2ce808d08dde9ba46c265d3671f54ff795752062af1b19da0ad6aec9cefe499735c344300f0e8623c71d47c8250aabc195c",
+      "consentLegalVersion":"20241220-1C",
+      "consentRequestedAt":"2025-01-28T14:36:59.213-05:00",
+      "consentReceivedAt":"2025-02-18T10:46:29.298-05:00"
+    },
+    {
+      "hashedId":"dbb8d01feb087bdd6af0b349158d7eeec53be9674beea7a38f009e8fd689ca5a56c31acd2c0ed1867bd1fed548a03a1cbe446d82bb6722282e26f8edb107cd38",
+      "consentLegalVersion":"20250226-2A",
+      "consentRequestedAt":"2025-03-28T14:36:59.213-05:00",
+      "consentReceivedAt":"2025-04-18T10:46:29.298-05:00"
+    }
+  ]
+},
+{
+  "userIdentifier":"123456798",
+  "employeeIdentifier":"123456987",
+  "userDetails": {
+    "firstName": "John",
+    "lastName": "Smith",
+    "phone":"823-978-2341",
+    "email":"john.smith@email.com",
+    "zip":"27413"
+  },
+  "adultDependents": [
+    {
+      "firstName": "Brown",
+      "lastName": "Smith"
+    },
+    {
+      "firstName": "Morgan",
+      "lastName": "Smith"
+    }
+  ],
+  "consents": [
+    {
+      "hashedId":"74db7116b6cd2adabed4b4f7a6e5a2ce808d08dde9ba46c265d3671f54ff795752062af1b19da0ad6aec9cefe499735c344300f0e8623c71d47c8250aabc195c",
+      "consentLegalVersion":"20241220-1C",
+      "consentRequestedAt":"2024-01-28T14:36:59.213-05:00",
+      "consentReceivedAt":"2024-02-18T10:46:29.298-05:00"
+    },
+    {
+      "hashedId":"ddd8d01feb087bdd6af0b349158d7eeec53be9674beea7a38f009e8fd689ca5a56c31acd2c0ed1867bd1fed548a03a1cbe446d82bb6722282e26f8edb107cd38",
+      "consentLegalVersion":"20240226-2A",
+      "consentRequestedAt":"2024-03-28T14:36:59.213-05:00",
+      "consentReceivedAt":null
+    }
+  ]
+}]

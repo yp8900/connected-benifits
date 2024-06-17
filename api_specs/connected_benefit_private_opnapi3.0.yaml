@@ -1,0 +1,88 @@
+openapi: 3.0.0
+paths:
+  /v1/health/check:
+    get:
+      operationId: HealthController_getHealthCheck
+      parameters: []
+      responses:
+        '200':
+          description: ''
+  /v1/api/user-consent/ui-content:
+    get:
+      operationId: UserConsentController_findUiContent
+      parameters:
+        - name: name
+          required: true
+          in: query
+          schema:
+            type: string
+        - name: business
+          required: true
+          in: query
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GetUiContentDto'
+        '400':
+          description: ''
+        '500':
+          description: ''
+  /v1/api/user-consent/ui-aem-content:
+    get:
+      operationId: UserConsentController_findUiAemContent
+      parameters:
+        - name: name
+          required: true
+          in: query
+          schema:
+            type: string
+        - name: business
+          required: true
+          in: query
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GetUiAemContentDto'
+        '400':
+          description: ''
+        '500':
+          description: ''
+info:
+  title: Connected Benefit Consent Capture API
+  description: The Connected Benefit Consent Capture  API description
+  version: '1.0'
+  contact: {}
+tags: []
+servers: []
+components:
+  schemas: 
+    GetUiContentDto:
+      type: object
+      properties:
+        name:
+          type: string
+        business:
+          type: string
+      required:
+        - name
+        - business
+    GetUiAemContentDto:
+      type: object
+      properties:
+        name:
+          type: string
+        business:
+          type: string
+      required:
+        - name
+        - business

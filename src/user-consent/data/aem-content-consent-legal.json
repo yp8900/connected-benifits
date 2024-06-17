@@ -1,0 +1,16 @@
+[{
+    "name": "cb-ui-aem-consent-legal-content",
+    "business": "cb-aem-consent-legal",
+    "data": {
+        "legalDisclaimer": "With your consent, you authorize the use of your and/or any enrolled minor dependent(s)* health and pharmacy benefit information to:",
+        "legalDisclaimerBulletPoints": [
+            "Support your benefits selection process;",
+            "Electronically notify you about relevant benefits or wellness-related activities, and/or;",
+            "Determine if you have applicable MetLife products that may offer an eligible benefit related to a medical event."
+        ],
+        "minorDependentExplanation": "*Minor dependents are defined as people covered by your policy who are up to 18 years of age.",
+        "healthPharmacyInformation": "You must first read our Health & Pharmacy Information Authorization terms in order to provide your consent.",
+        "errorMessage": "You can not proceed without reading the Health & Pharmacy Information Authorization.",
+        "legalText": "© 2017 MetLife MetLife Term Life Insurance issued by MetLife Insurance Company USA, Charlotte, NC, 28277 (except in NY), on policy form #5E-23-12, and by Metropolitan Life Insurance Company, New York, NY 10166 (NY only), on policy form #1E-23-12-NY. Both are MetLife companies. L1016481177[exp1217] [All States][DC,GU,MP,PR,VI]"
+    }
+}]
