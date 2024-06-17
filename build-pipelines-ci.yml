@@ -1,0 +1,36 @@
+# ## Set the name of the build and artifact to include the branch name
+name: $(SourceBranchName)_$(Date:yyyyMMdd)$(Rev:.r)
+
+pool:
+    name: Employee-Employer
+    # demands: java
+
+ # Only build master, develop, release/* (and PRs by default); ignore other commits/branches.
+ # For develop: develop (USD Team), develop-de1 (DE#1 Team), develop-de2 (DE#2 Team), develop-ops (DEVOPS Team);
+ # Pre-Merge enabled thru repo/branch policy
+ # Post-Merge enable thru trigger option herewith
+ 
+trigger:
+  batch: true
+  branches:
+    include:
+     - master
+     - develop
+     - develop-de1
+     - develop-de2
+     - develop-ops
+     - release/release-*
+     - release/hotfix-*
+
+resources:
+  repositories:
+  - repository: 13399-pipeline-template
+    type: git
+    name: 13399-pipeline-template
+    ref: master
+
+     
+ 
+extends:
+  template: build-pipelines\Npm\13760_cbupwnya_service.yml@13399-pipeline-template
+

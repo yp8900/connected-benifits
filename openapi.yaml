@@ -1,0 +1,120 @@
+openapi: 3.0.0
+paths:
+  /v1/health/check:
+    get:
+      operationId: HealthController_getHealthCheck
+      parameters: []
+      responses:
+        '200':
+          description: ''
+  /v1/api/user-consent/consent/{hashId}:
+    get:
+      operationId: UserConsentController_findByHashId
+      parameters:
+        - name: hashId
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+    patch:
+      operationId: UserConsentController_patchUserConsent
+      parameters:
+        - name: hashId
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+  /v1/api/user-consent/consent/{hashId}/consent:
+    put:
+      operationId: UserConsentController_consentByHashId
+      parameters:
+        - name: hashId
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+  /v1/api/user-consent/consent/{hashId}/revoke:
+    put:
+      operationId: UserConsentController_revokeConsentByHashId
+      parameters:
+        - name: hashId
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+  /v1/api/user-consent:
+    post:
+      operationId: UserConsentController_createuserConsent
+      parameters: []
+      responses:
+        '201':
+          description: ''
+  /v1/api/user-consent/ui-content:
+    get:
+      operationId: UserConsentController_findUiContent
+      parameters:
+        - name: name
+          required: true
+          in: query
+          schema:
+            type: string
+        - name: business
+          required: true
+          in: query
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+  /v1/api/user-consent/ui-aem-content:
+    get:
+      operationId: UserConsentController_findUiAemContent
+      parameters:
+        - name: name
+          required: true
+          in: query
+          schema:
+            type: string
+        - name: business
+          required: true
+          in: query
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+  /v1/api/data-hub/user-consent:
+    put:
+      operationId: DataHubController_patchUserConsent
+      parameters: []
+      responses:
+        '200':
+          description: ''
+  /v1/api/data-hub/consent:
+    put:
+      operationId: DataHubController_PatchConsent
+      parameters: []
+      responses:
+        '200':
+          description: ''
+info:
+  title: Connected Benefit Consent Capture API
+  description: The Connected Benefit Consent Capture  API description
+  version: '1.0'
+  contact: {}
+tags: []
+servers: []
+components:
+  schemas: {}
